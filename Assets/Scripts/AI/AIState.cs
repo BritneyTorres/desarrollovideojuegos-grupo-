@@ -7,7 +7,7 @@ using UnityEngine.AI;
 public abstract class AIState
 {
     // Usamos 'protected' para que las clases hijas puedan acceder.
-    // El prefijo 'm_' es una convenciÃ³n comÃºn para miembros protegidos.
+    // El prefijo 'm_' es una convención común para miembros protegidos.
     protected AIController m_controller;
     protected NavMeshAgent m_agent;
     protected Transform m_playerTransform;
